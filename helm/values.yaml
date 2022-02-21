@@ -10,7 +10,8 @@ application:
   name: ''
 
 replicaCount: 1
-
+restapi:
+  servicetype: ClusterIP
 image:
   repository: nginx
   pullPolicy: IfNotPresent
